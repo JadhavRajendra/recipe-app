@@ -10,6 +10,9 @@ export default function RouterPractice() {
   return (
     <div>
       <Routes>
+      <Link to="/about">
+         <li>home</li>
+         </Link>
         <Route path="/" exact element={Home} />
       </Routes>
     </div>
