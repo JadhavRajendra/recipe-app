@@ -2,6 +2,9 @@ import React from 'react'
 
 export default function FunctionExzample() {
   return (
-    <div>FunctionExzample</div>
+    <div>
+      <h1> hallo</h1>
+      <input type="range"></input>
+    </div>
   )
 }
