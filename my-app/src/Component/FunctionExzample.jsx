@@ -1,25 +1,18 @@
 import React from 'react'
+import './App.css';
 export default function FunctionExzample() {
   return (
-    <div className='my-image'>
-      <h1> hallo word</h1>
-      <input type="range"></input><br></br>
-      <br></br>
-      <input type="email"></input><br></br>
-      <image src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"></image>
-      <br></br>
-      <input type="password"></input><br></br>
-      <br></br>
+    
+      
+      <div class="row">
+  <div class="col">
+    <input type="text" class="form-control" placeholder="First name" aria-label="First name"></input>
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"></input>
+  </div>
+</div>
 
-         <input type="datetime-local"></input>
-
-      <br></br>
-      <input type="button"></input>
-      <br></br>
-
-      <input type="file"></input><br></br>
-
-
-    </div>
+    
   )
 } 
