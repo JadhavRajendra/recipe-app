@@ -1,6 +1,6 @@
 import React from 'react';
-import FunctionExzample from "./Component/FunctionExzample";
 import './App.css';
+import FunctionExzample from "./Component/FunctionExzample";
 function App() {
   return (
     <div className="App">
