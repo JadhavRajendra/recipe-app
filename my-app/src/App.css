@@ -44,3 +44,9 @@
   size: 200px;
   background-color: red;
 }
+.control{
+  text-align: justify;
+  flex-direction: column;
+  float: left;
+  size: 100px;
+}
